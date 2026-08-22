@@ -1,4 +1,4 @@
-# EWMS — SMC - Attendance Mngt System
+Attendance Mngt System
 
 Employee tracking, GPS-verified attendance, and workforce management,
 built on **Next.js + ASP.NET Core Web API + SQL Server** — no Docker, no
