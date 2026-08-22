@@ -1,0 +1,23 @@
+bin/
+obj/
+logs/
+*.log
+
+# Local configuration and secrets
+appsettings.Local.json
+appsettings.*.local.json
+secrets.json
+*.pfx
+*.p12
+*.key
+*.pem
+.env
+.env.*
+!.env.example
+
+# IDE and test output
+.vs/
+*.user
+*.suo
+TestResults/
+coverage/

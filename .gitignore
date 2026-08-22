@@ -1,0 +1,44 @@
+# .NET
+backend/**/bin/
+backend/**/obj/
+backend/**/*.user
+backend/**/logs/
+backend/**/.build-validation/
+**/.build-validation*/
+backend/**/appsettings.Local.json
+backend/**/appsettings.*.local.json
+backend/**/secrets.json
+backend/**/*.pfx
+backend/**/*.p12
+backend/**/*.key
+backend/**/*.pem
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+frontend/.env.local
+frontend/.env.*.local
+
+# IDE
+.vs/
+.vscode/*.log
+**/.git.nested-backup-*/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Test and runtime output
+TestResults/
+coverage/
+*.log
+
+# Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# OS
+.DS_Store
+Thumbs.db

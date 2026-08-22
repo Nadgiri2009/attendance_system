@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-display: "Source Serif 4", Georgia, serif;
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+html, body {
+  background-color: #F7F8FA;
+  color: #0F172A;
+}
+
+.leaflet-container {
+  width: 100%;
+  height: 500px;
+  min-height: 18rem;
+  background: transparent;
+  position: relative;
+  z-index: 0;
+}
+
+.leaflet-container .leaflet-tile,
+.leaflet-container .leaflet-tile-container,
+.leaflet-container .leaflet-pane,
+.leaflet-container .leaflet-control-container {
+  background: transparent;
+}
+
+.leaflet-container img.leaflet-tile {
+  display: block;
+  width: 256px !important;
+  height: 256px !important;
+  max-width: none !important;
+  opacity: 1;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.focus-ring:focus-visible {
+  outline: 2px solid #14385E;
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

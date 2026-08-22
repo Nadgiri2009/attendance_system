@@ -1,0 +1,1 @@
+In employee management, add crud operations with it's functionality and validations, In attendence management, add crud operations with it's functionality and validations, also the form submission is not getting saved of the employee management & same for attendence also.
