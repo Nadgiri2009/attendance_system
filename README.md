@@ -1,8 +1,7 @@
 Attendance Mngt System
 
 Employee tracking, GPS-verified attendance, and workforce management,
-built on **Next.js + ASP.NET Core Web API + SQL Server** — no Docker, no
-nginx.
+built on **Next.js + ASP.NET Core Web API + SQL Server**
 
 > **Read `docs/SCOPE.md` first.** This delivers a fully working core (Auth,
 > Employee Management, Attendance/GPS) with production-grade architecture —
